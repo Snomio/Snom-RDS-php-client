@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	background-color: #444444;
+	font-family: Arial;
+	font-size: 2em;
+	color: #444444;
+}
+button, button:visited {
+	background-color: #0275b6;
+	border: 1px solid #dddddd;
+	color: #dddddd;
+	cursor: pointer;
+	width: 200px;
+}
+
+button:hover {
+	background-color: #0e96e2;
+	border: 1px solid #eeeeee;
+	color: #eeeeee;
+	cursor: pointer;
+}
+
+.middlecol {
+	width: 780px;
+	padding-left: 20px;
+	padding-right: 100px;
+	background-color: #cccccc;
+	vertical-align: top;
+	
+	-webkit-box-shadow: 0px 0px 48x #000000;
+        -moz-box-shadow: 0px 0px 48px #000000;
+        box-shadow: 0px 0px 48px #000000;
+	
+	-webkit-border-radius: 0 0 7px 7px;
+        -moz-border-radius: 0 0 7px 7px;
+        border-radius: 0 0 7px 7px;
+}
+
+.result {
+	padding-left: 30px;
+	vertical-align: top;
+}
+
+h1{
+	padding-top: 60px;	
+	color: #0275b6;	
+}
+
+h2{
+	color: #0275b6;	
+}
+
+h3 {
+	padding-top: 20px;
+	border-top: 1px solid #eeeeee;
+}
+input, select{
+	border: 1px solid grey;
+	padding:6px;
+	width: 300px;
+	font-family: Arial;
+	font-size: 1em;
+}
+
+textarea {
+	border: 1px solid grey;
+	padding:6px;
+	width: 550px;
+	font-family: Arial;
+	font-size: 1em;
+	height: 600px;
+	vertical-align: top;
+}
+textarea.input {
+	border: 1px solid grey;
+	padding:6px;
+	width: 300px;
+	font-family: Arial;
+	font-size: 1em;
+	height: 100px;	
+}
+select:hover, input:hover {
+	border: 1px solid black;
+	background-color: #f4efd6;
+}
+
+select:focus, input:focus {
+	border: 1px solid black;
+	background-color: #eee8c6;
+}
+
